@@ -9,7 +9,9 @@ game = str(input("""Suas opções:
  [0] PEDRA:
  [1] PAPEL:
  [2] TESOURA:"""))
+# o jogador escolhe qual opção jogar
 jogador = int(input("Qual é a sua jogada: "))
+# o computador escolhe qual opção jogar
 print("Computador jogou: {}".format(itens[computador]))
 print("-=" * 20)
 print("Jogador jogou: {}".format(itens[jogador]))
@@ -50,3 +52,4 @@ elif computador == 2: # computador jogou TESOURA
         print("EMPATE!")
     else:
         print("JOGADA INVÁLIDA!")
+
